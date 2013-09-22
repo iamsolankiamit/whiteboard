@@ -1,0 +1,47 @@
+
+.row{
+	width:100%;
+	float:left;
+}
+[class^="column-"],
+[class*="column-"] {
+	margin:0px 10px;
+	background: #ccc;
+	float:left;
+	}
+.column-1{
+	width:7.291666666666667%;
+}
+.column-2{
+	width:16.66666666666667%;
+}
+.column-3{
+	width:23.95833333333333%;
+}
+.column-4{
+	width:32.29166666666667%;
+}
+.column-5{
+	width:40.625%;
+}
+.column-6{
+	width:48.95833333333333%;
+}
+.column-7{
+	width:57.29166666666667%;
+}
+.column-8{
+	width:65.625%;
+}
+.column-9{
+	width:78.125%;
+}
+.column-10{
+	width:82.29166666666667%;
+}
+.column-11{
+	width:90.625%;
+}
+.column-12{
+	width:98.95833333333333%;
+}
