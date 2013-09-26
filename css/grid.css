@@ -3,10 +3,13 @@
 	width:100%;
 	margin:20px 0 0 0;
 	float:left;
-	background:#ff0;
+}
+.row .row {
+	margin:0 0 0 0;
 }
 .container{
   margin:0px auto;
+  display:block;
 }
 [class^="column-"],
 [class*="column-"] {
