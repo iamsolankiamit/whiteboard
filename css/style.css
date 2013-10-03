@@ -19,3 +19,42 @@
 .text-justify {
   text-align: justify; 
 }
+/*headings*/
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+	font-style: normal;
+	color: #222222;
+	margin-top: 0.2em;
+	margin-bottom: 0.5em;
+	line-height: 1.2125em;
+}
+/*Error Message*/
+#flash-msg {
+	margin: 5px auto;
+	padding:10px;
+	background: #d9edf7;
+	color:#3a87ad;
+	border: 1px solid #bce8f1;
+}
+
+#flash-msg.error {
+	border: 1px solid #FC6;
+	background: #FFC;
+	color: #C00;
+}
+
+#flash-msg.success {
+	border: #080 1px solid;
+	color: #080;
+	background: #E8FCDC;
+}
+#flash-msg.success ul li, #flash-msg.error ul li{
+	margin-left:20px;
+}
+.error-info{
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 0;
+	font-size:0.9em;
+	color: #D14;
+}
