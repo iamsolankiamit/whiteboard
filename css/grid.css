@@ -7,14 +7,24 @@
 .row .row {
 	margin:0 0 0 0;
 }
+.column, .columns {
+	position: relative;
+	padding-left: 0.9375em;
+	padding-right: 0.9375em;
+	float: left;
+}
 .container{
   margin:0px auto;
   display:block;
 }
+.center-align{
+	width:100%;
+	text-align:center;
+}
 [class^="column-"],
 [class*="column-"] {
 	margin-left:1.6%;
-	background: #ccc;
+	background: #f7f7f9;
 	float:left;
 	}
 [class^="column-"]:first-child,
