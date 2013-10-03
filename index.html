@@ -148,9 +148,11 @@
 					<label class="radio"><input name="doc-radio" type="radio"> Option 1</label>
 					<label class="radio"><input name="doc-radio" type="radio"> Option 2</label>
 				  </label>
+				  <label>Phone</label>
 				  <div class="input-prefix">
-					<span class="add-on">+1</span><input type="text" placeholder="xxx-xxx-xxxx"/> 
+					<span class="add-on">+91</span><input type="text" placeholder="xxx-xxx-xxxx"/> 
                   </div>
+				  <label>Price</label>
 				  <div class="input-postfix">
 					<input type="text" placeholder="xxx-xxx-xxxx"/> <span class="add-on">0.00</span>
                   </div>
@@ -164,20 +166,22 @@
 </div>
 
 <div class="row">
-		<div class="column-6	 columns">
+		<div class="column-6 columns">
 			<form class="" action="#">
 				<fieldset>
 				  <legend>Simple form</legend>
 				  <label>E-mail address</label>
 				  <input type="text" class="error"  placeholder="Enter your e-mail"/>
 				  <p class="error-info"><span class="label label-red">Note</span> Enter a valid email address, we will use this address for further communication.</p>	
+				  <label>E-mail address</label>
+				  <input type="text" readonly placeholder="Enter your e-mail"/>
 				  <label class="checkbox">
 					<input type="checkbox"> A super checkbox
 				  </label>	
 				  			  
 				  
 
-				  <label >Inline Radio Buttons:
+				  <label>Inline Radio Buttons:
 					  <label class="radio inline"><input name="doc-radio-1" type="radio"/> Option 1</label>
 					  <label class="radio inline"><input name="doc-radio-1" type="radio"/> Option 2</label>
 				  </label>
@@ -198,12 +202,16 @@
 			<form class="form-horozontal" action="#">
 				<fieldset>
 				  <legend>Horizontal form</legend>
-				  <label>E-mail address</label>
-				  <div class="horizontal-element">
+				  <div class="form-horozontal-row ">
+					<label class="form-horozontal-label">E-mail address</label>
 					<input type="text" placeholder="Enter your e-mail"/>
 				  </div>	
-				  <label for="select">Select</label>
-				  <div class="horizontal-element">
+				  <div class="form-horozontal-row ">
+					<label class="form-horozontal-label">E-mail address</label>
+					<input type="text" placeholder="Enter your e-mail"/>
+				  </div>
+				  <div class="form-horozontal-row ">
+					  <label for="select" class="form-horozontal-label">Select</label>
 					  <select id="doc-select" name="select">
 						  <option>Option 1</option>
 						  <option>Option 2</option>
@@ -211,9 +219,88 @@
 						  <option>Option 4</option>
 					  </select>		
 				 </div>
-				  
-				  
+				 <div class="form-horozontal-row  ">
+					<label for="select" class="form-horozontal-label">Price</label>
+					  <div class="input-postfix">
+						<input type="text" class="small" placeholder="xxx-xxx-xxxx"/> <span class="add-on">Rs</span>
+					  </div>
+				 </div>
+				 <div class="form-horozontal-row  ">
+					<label for="select" class="form-horozontal-label">Mobile</label>
+					  <div class="input-prefix">
+						<span class="add-on">+91</span><input type="text" class="small" placeholder="xxx-xxx-xxxx"/> 
+					  </div>
+				 </div>
+				
+				 <div class="form-horozontal-row form-horozontal-left">
+					<label class="checkbox">
+						<input type="checkbox"> A super checkbox
+					</label>
+				 </div>
+				 
+				 <input type="submit" class="btn btn-block" value="book">
+				 <div class="form-horozontal-row text-center">
+					<input type="submit" class="btn btn-small red" value="cancel">
+					<input type="submit" class="btn btn-small gray" value="reset">
+				 </div> 
 				</fieldset>
+			</form>
+		</div>
+</div>
+<div class="row">
+	<div class="column-7 columns">
+			<form class="form-inline" action="#">
+				<fieldset>
+				  <legend>Inline form</legend>
+				  <input type="text" placeholder="Enter your e-mail"/>
+				  <input type="password" placeholder="password"/>
+				  <input type="submit" class="btn " value="reset">
+				  <input type="reset" class="btn  gray" value="reset">
+				  <input type="submit" class="btn  red" value="Canel">
+				</fieldset>
+			</form>
+	</div>
+</div>
+<div class="row">
+		<div class="column-9 columns">
+			<form class="" action="#">
+			<fieldset>
+			<legend>Simple form</legend>
+				<div class="column-4 columns">
+					  <label>E-mail address</label>
+					  <input type="text" class="error"  placeholder="Enter your e-mail"/>
+					  <p class="error-info"><span class="label label-red">Note</span> Enter a valid email address, we will use this address for further communication.</p>	
+					  <label>E-mail address</label>
+					  <input type="text" readonly placeholder="Enter your e-mail"/>
+					  <label class="checkbox">
+						<input type="checkbox"> A super checkbox
+					  </label>	
+				</div>
+				<div class="column-4 columns">				
+					  
+
+					  <label>Inline Radio Buttons:
+						  <label class="radio"><input name="doc-radio-1" type="radio"/> Option 1</label>
+						  <label class="radio"><input name="doc-radio-1" type="radio"/> Option 2</label>
+					  </label>
+					  <label for="select">Select</label>
+					  <select id="doc-select" name="select">
+						  <option>Option 1</option>
+						  <option>Option 2</option>
+						  <option>Option 3</option>
+						  <option>Option 4</option>
+					  </select>				 
+					  <label >Upload:
+					  <input type="file">
+					  </label>
+					
+				</div>
+				<div class="column-3 columns">			
+				<input type="submit" value="cancel" class="btn btn-small red"/>					
+				<input type="submit" value="Book" class="btn btn-small"/>	
+				<input type="submit" Value="Book Combo...!" class="btn btn-block"/>					
+				</div>
+			</fieldset>
 			</form>
 		</div>
 </div>

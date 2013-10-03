@@ -59,8 +59,12 @@ select{
   input[type="time"][disabled],
   input[type="url"][disabled],
   textarea[disabled],
-  select[disabled]{
-    background-color: #dddddd; }
+  select[disabled],
+  input[readonly],
+  textarea[readonly],
+  select[readonly]{
+    background-color: #dddddd;
+	cursor:not-allowed;}
 label {
 	cursor: pointer;
 	display: block;
@@ -97,6 +101,8 @@ input[type="checkbox"]:checked{
 	display: inline-block;
 	padding-top: 5px;
 	margin-bottom: 0;
+	float:none;
+	width:auto;
 }
 input[type="radio"] {
 	-webkit-appearance: none;
@@ -196,13 +202,13 @@ label.error {
 	padding: 0.38em;
 }
 .input-postfix input{
-	width:auto;
 	margin-right:0;
 	float:left;
+	width:auto;
 }
 .input-prefix input{
-	width:auto;
 	margin-left:0;
+	width:auto;
 }
 /* Form Actions : Button and Submit*/
 
@@ -211,10 +217,59 @@ label.error {
 	float:left;
 }
  /* form-horozontal */
- .form-horozontal input,.form-horozontal select, .form-horozontal label{
-	display: inline-table;
-	width: auto;
+ .form-horozontal-left{
+	padding-left:42%;
+}
+
+.form-horozontal input[type="text"],
+.form-horozontal input[type="password"],
+.form-horozontal input[type="date"],
+.form-horozontal input[type="datetime"],
+.form-horozontal input[type="datetime-local"],
+.form-horozontal input[type="month"],
+.form-horozontal input[type="week"],
+.form-horozontal input[type="email"],
+.form-horozontal input[type="number"],
+.form-horozontal input[type="search"],
+.form-horozontal input[type="tel"],
+.form-horozontal input[type="time"],
+.form-horozontal input[type="url"],
+.form-horozontal select, 
+.form-horozontal-label{
+	display: table-cell;
+	width: 50%;
  }
- .horizontal-element{
-	margin-left:40%;
+.form-horozontal-label{
+	padding:0 0.4em 0 0;
+	text-align:right;
+	width: 40%;
+}
+ .form-horozontal-row  {
+	margin-bottom: .5em;
+	width:100%;
  }
+ .form-horozontal  input.small{
+	width:36%;
+}
+/*inline form*/
+.form-inline input[type="text"],
+.form-inline input[type="password"],
+.form-inline input[type="date"],
+.form-inline input[type="datetime"],
+.form-inline input[type="datetime-local"],
+.form-inline input[type="month"],
+.form-inline input[type="week"],
+.form-inline input[type="email"],
+.form-inline input[type="number"],
+.form-inline input[type="search"],
+.form-inline input[type="tel"],
+.form-inline input[type="time"],
+.form-inline input[type="url"],
+.form-inline select{
+	width:auto;
+	display:table-cell;
+}
+ /*Input size*/
+ input.small{
+	width:40%;
+}
