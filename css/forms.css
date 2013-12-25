@@ -206,8 +206,8 @@ label.error {
 	float:left;
 	width:auto;
 }
-.input-prefix input{
-	margin-left:0;
+.input-prefix input[type="text"] {
+	margin:0;
 	width:auto;
 }
 /* Form Actions : Button and Submit*/
