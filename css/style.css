@@ -105,13 +105,13 @@ h1, h2, h3, h4, h5, h6 {
 	display: block;
 	margin: 2px;
 	vertical-align:middle;
+
 }
 .pagination a{
 	background: #018fe1;
 	color: #fff;
-	
+    border-radius: 5px;
 	padding: 5px 10px;
-	
 	float: left;
 	text-decoration: none;
 	text-align: center;
@@ -131,4 +131,19 @@ h1, h2, h3, h4, h5, h6 {
 li.active_page a{
 	background:#333333;
 	cursor:default;
+}
+
+/* Header navigation Bar */
+.navbar{
+/*
+  position: fixed;
+  top: 0;
+  left:0;
+*/
+}
+.navbar-inner{
+    background-color: #000;
+    box-shadow: 1px 5px 10px rgba(0,0,0,0.4);
+    z-index: 2;
+    padding: 0 20px;
 }

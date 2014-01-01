@@ -11,7 +11,7 @@
 
 <div class="container">
 <h1>White Board</h1>
-  <div class="row newline">
+  <div class="row newline10">
     <div class="column-large-1">
       <p p class="show-col">col-1 </p>
     </div>
@@ -49,7 +49,7 @@
       <p p class="show-col">col-1 </p>
     </div>
   </div>
-  <div class="row newline">
+  <div class="row newline10">
     <div class="column-large-2">
       <p p class="show-col">col-2</p>
     </div>
@@ -69,7 +69,7 @@
       <p p class="show-col">col-2</p>
     </div>
   </div>
-  <div class="row newline">
+  <div class="row newline10">
     <div class="column-large-3">
       <p p class="show-col">col-3</p>
     </div>
@@ -83,7 +83,7 @@
       <p p class="show-col">col-3</p>
     </div>
   </div>
-  <div class="row newline">
+  <div class="row newline10">
     <div class="column-large-4">
       <p p class="show-col">col-4</p>
     </div>
@@ -94,7 +94,7 @@
       <p p class="show-col">col-4</p>
     </div>
   </div>
-  <div class="row newline">
+  <div class="row newline10">
     <div class="column-large-5">
       <p p class="show-col">col-5</p>
     </div>
@@ -102,7 +102,7 @@
       <p p class="show-col">col-7</p>
     </div>
   </div>
-  <div class="row newline">
+  <div class="row newline10">
     <div class="column-large-6">
       <p p class="show-col">col-6</p>
     </div>
@@ -110,9 +110,25 @@
       <p p class="show-col">col-6</p>
     </div>
   </div>
-  <div class="row newline">
+  <div class="row newline10">
     <div class="column-large-12">
       <p p class="show-col">col-12</p>
+    </div>
+  </div>
+  
+  <h1>Offsets </h1>
+  
+  <div class="row newline10">
+    <div class="column-large-3">
+      <p p class="show-col">col-3</p>
+    </div>
+    <div class="column-small-offset-3">
+    </div>
+    <div class="column-large-3">
+      <p p class="show-col">col-3</p>
+    </div>
+    <div class="column-large-3">
+      <p p class="show-col">col-3</p>
     </div>
   </div>
   
